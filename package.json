@@ -1,0 +1,23 @@
+{
+  "name": "fundamental-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc --watch",
+    "start": "node dist/main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evergara/fundamental-typescript.git"
+  },
+  "keywords": [
+    "typeScript",
+    "javaScript"],
+  "author": "evergara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evergara/fundamental-typescript/issues"
+  },
+  "homepage": "https://github.com/evergara/fundamental-typescript#readme"
+}
