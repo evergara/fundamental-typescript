@@ -41,3 +41,30 @@ enum PhotoOrientation {
   console.log('México: ', mexico)
   
   //! Country.Mexico = 'MX' //!Esto da un error, no podemos modificar su valor
+
+  //extendiendo NUM
+
+  const enum familia {
+    padres = 10, 
+    hermanos,
+    mujer,
+    hijos
+  }
+
+  const enum amigos{
+    compañeros = 5,
+    conocidos,
+    comunidad
+  }
+
+  type extendFamila = familia | amigos;
+
+
+let families: extendFamila;
+
+families = familia.hermanos;
+families = familia.padres;
+families = amigos.compañeros;
+
+
+console.log('families', families);
